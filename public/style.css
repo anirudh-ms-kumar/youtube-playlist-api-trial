@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding :0;
+}
+.header
+{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 5.7%;
+	border: 1px solid black;
+	padding : 1% 2% 1% 2%;
+	z-index: 9999;
+}
+#logo
+{
+	width: 10%;	
+	border: 1px solid black;
+}
+.section
+{
+	position: absolute;
+	width: 100%;
+	top:10%;
+	min-height: 100%;	
+	border: 2px solid red;	
+}
+.player
+{
+	padding : 3%;
+}
+iframe
+{
+	position: fixed;
+	height: 65%;
+	width: 55%;
+}
+.suggestions
+{	
+	float: right;
+	position: relative;
+	right: 1%;
+	border: 1px solid blue;
+	width: 30%;
+}
+.up_next
+{		
+	border: 1px solid black;
+	padding : 2.5% 2% 0% 2%;
+	
+}
+.thumb
+{
+	height: 70%;
+	width : 40%;
+	margin-right: 2%;
+}
+.desc h4
+{
+	border: 1px solid blue;
+	float: right;
+	position: relative;
+	top: -10%;
+}
